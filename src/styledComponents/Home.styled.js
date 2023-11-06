@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import('https://fonts.googleapis.com/css2?family=Koulen&family=Lato:ital,wght@0,300;0,700;1,400&display=swap');
-import ('https://fonts.cdnfonts.com/css/gabarito');
+
 
 const Body = styled.body`
 width: 100%;

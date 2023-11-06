@@ -1,8 +1,7 @@
 import styled from "styled-components";
 import Cover from '../Assets/Carousel.png';
 import { motion } from "framer-motion";
-import('https://fonts.googleapis.com/css2?family=Koulen&family=Lato:ital,wght@0,300;0,700;1,400&display=swap');
-import ('https://fonts.cdnfonts.com/css/gabarito');
+
                 
 
 export const CustomerCard = styled(motion.div)`
@@ -46,8 +45,9 @@ export const CustomerCard = styled(motion.div)`
       line-height: 3rem;
     }
     display: flex;
-    width: 266px;
-    padding: 0px 5px;
+    width: 329px;
+    height:466px;
+    
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
@@ -96,19 +96,16 @@ export const Profile = styled.div`
     background-image: url('${Cover}');
     background-repeat: no-repeat;
     height: 350.952px;
-    width: 150rem;
+    width: 75rem;
     p {
       font-weight: 400;
-      font-size: 1.1rem;
-      line-height: 30px;
-      padding-top: 10%;
+      font-size: 30px;
+      line-height: 50px;
+      padding-top: 1px;
+      padding-left: 30px;
       color: #FFF;
       font-family: 'Gabarito', sans-serif;
-                                                
-                                                
-      font-size: 18px;
       font-style: normal;
-      font-weight: 400;
     }
   }
 
@@ -122,16 +119,12 @@ export const Profile = styled.div`
     }
     p {
       font-weight: 400;
-      font-size: 1.1rem;
+      font-size: 10px;
       line-height: 10px;
       padding-top: 10%;
       color: #FFF;
-      font-family: 'Gabarito', sans-serif;
-                                                
-                                                
-      font-size: 8px;
+      font-family: 'Gabarito', sans-serif;      
       font-style: normal;
-      font-weight: 400;
     }
   }
 
@@ -142,18 +135,16 @@ export const Profile = styled.div`
     .text-section {
       text-align: center;
       width: 276px;
-    }
-     p {
+      height:200px;
+       p {
+        width: 200px;
       font-weight: 400;
-      font-size: 1.1rem;
-      line-height: 10px;
-      padding-top: 10%;
-      color: #FFF;
-      font-family: 'Gabarito', sans-serif;                                         
-      font-size: 3px;
-      font-style: normal;
-      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+      padding-top: 1px;
     }
+    }
+    
   }
 `;
 
