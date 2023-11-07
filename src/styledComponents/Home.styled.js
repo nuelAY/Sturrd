@@ -18,16 +18,17 @@ overflow: hidden;
 `
 
 export const Nav = styled.nav`
-width: 1403px;
+width: 1203px;
 height: 86px;
 flex-shrink: 0;
 border-radius: 54px;
 background: #000;
+overflow: hidden;
 
 @media screen and (max-width: 768px){
   width: 356px;
 height: 46px;
-margin-left: -5%;
+margin-left: -15%;
 align-items: center;
 gap: 15px;
 border-radius: 54px;
@@ -37,14 +38,14 @@ background: #000;
 
 export const Hero = styled.div`
 width: 100%;
-margin-left: 13%;
+
 padding:  80px 0px 60px;
 
 @media screen and (max-width: 768px){
   width: 100%;
   margin-top: -150px;
-align-items: center;
-gap: 10px;
+  align-items: center;
+  gap: 10px;
 }
 `
 
@@ -52,7 +53,7 @@ export const Break = styled.div`
 width: 1000px;
 height: 1px;
 background: #746B63;
-margin: 15% 0% 0% 25%;
+margin: 15% 0% 0% 12%;
 z-index: 4;
 @media screen and (max-width: 768px){
   width: 326px;
@@ -102,15 +103,16 @@ font-size: 70px;
 `
 export const Section = styled.div`
 margin-top: 12%;
+margin-left: -20%;
 width: 100%;
 height: 579px;
 flex-shrink: 0;
 
 @media screen and (max-width: 768px){
-  width: 426px;
-margin-left: -20%;
+  width: 100%;
 align-items: center;
 gap: 154px;
+margin-top: -15%;
 }
 `
 export default Body

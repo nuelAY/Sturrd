@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export const CustomerCard = styled(motion.div)`
   margin-top: 10%;
-  margin-left:20%;
+  margin-left:4%;
   width: 1240px;
   height: 724px;
   flex-shrink: 0;
@@ -39,6 +39,8 @@ export const CustomerCard = styled(motion.div)`
     }
   }
   @media screen and (max-width: 768px) {
+     margin-left: 10%;
+     margin-top: -5%;
     padding-bottom: 4rem;
     h1 {
       font-size: 2rem;
