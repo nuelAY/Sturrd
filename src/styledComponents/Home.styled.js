@@ -24,7 +24,7 @@ background: #000;
 @media screen and (max-width: 768px){
   width: 356px;
 height: 46px;
-margin-left: 1%;
+margin-left: -15%;
 align-items: center;
 gap: 15px;
 border-radius: 54px;

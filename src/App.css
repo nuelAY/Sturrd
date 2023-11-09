@@ -71,7 +71,7 @@ p{
 .nav {
     z-index: 5;
     width: auto;
-    padding-left: 7.5%;
+    padding-left: 14.5%;
    
   }
 .logo{
@@ -138,7 +138,6 @@ p{
 .heroheader{
   color: #FFF;
   text-align: center;
-  margin-left: -5%;
   font-family: 'Koulen', sans-serif;
   font-size: 120px;
   font-style: normal;
@@ -149,6 +148,7 @@ p{
 }
 .spiral{
   margin-top: -5%;
+  margin-left: 5%;
 }
 h2{
 margin-top: -245px;
@@ -391,7 +391,7 @@ margin-left: 85%;
       margin-top: -25%;
       line-height: 62px;
       padding-bottom: 20px;
-      margin-left: 5%;
+      margin-left: 4%;
       font-size: 80px;
       width: 400px;
       
@@ -432,7 +432,7 @@ margin-left: 85%;
     }
 
     .svg3 {
-      margin-bottom: -20px;
+      margin-bottom: -50px;
       width: 40px;
     }
   
