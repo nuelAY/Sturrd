@@ -49,7 +49,6 @@ export const CustomerCard = styled(motion.div)`
     display: flex;
     width: 329px;
     height:466px;
-    
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;

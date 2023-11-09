@@ -2,7 +2,12 @@
 @import url('https://fonts.cdnfonts.com/css/gabarito');
 
 
-
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    
+  }
+}
 
 /** NAV SECTION OPEN**/
 .nav{
@@ -65,14 +70,9 @@ p{
 @media screen and (max-width:768px) {
 .nav {
     z-index: 5;
-    display: flex;
     width: auto;
     padding-left: 7.5%;
-    justify-content: center;
-    align-items: center;
-    background: rgba(0, 0, 0, 0.02);
-    backdrop-filter: blur(17px);
-    position: fixed;
+   
   }
 .logo{
   width: 15px;
@@ -109,7 +109,7 @@ p{
 
     ul {
       display: inline-flex;
-      padding: 10px 0px 0px 15px;
+      padding: 10px 0px 0px 5px;
       margin-bottom: auto;
       gap: 10px;
       list-style: none;
@@ -214,8 +214,8 @@ animation: rotation infinite 5s linear;
   z-index: 2;
   display: flex;
   width: 494.558px;
-  height: 313.607px;
-  padding-left: 390px;
+  height: 113.607px;
+  
   padding-bottom: 60px;
   margin-left: 40%;
   margin-top: -8%;
@@ -373,12 +373,10 @@ margin-left: 85%;
   .heroheader {
     display: flex;
     color: #FFF;
-    
-    
-    margin-top: -35%;
+    margin-top: -40%;
     margin-bottom: 40%;
     text-align: center;
-    padding: 5px 20px 10px 10px;
+    padding: 5px 20px 10px 30px;
     font-family: 'Koulen', sans-serif;
     font-size: 40px;
     font-style: normal;
@@ -393,6 +391,7 @@ margin-left: 85%;
       margin-top: -25%;
       line-height: 62px;
       padding-bottom: 20px;
+      margin-left: 5%;
       font-size: 80px;
       width: 400px;
       
@@ -400,6 +399,7 @@ margin-left: 85%;
     .spiral{
       width: 100px;
       margin-top: -10%;
+      margin-left: 5%;
     }
     .digital {
       color: #00E0F2;
@@ -459,7 +459,7 @@ margin-left: 85%;
     .rotate {
       width: 111.519px;
         height: 111px;
-        margin-left: 70px;
+        margin-left: 90px;
       animation: rotation infinite 5s linear;
     }
   
@@ -479,9 +479,8 @@ margin-left: 85%;
       display: grid;
       width: 294.558px;
       height: 313.607px;
-      padding-left: 390px;
       padding-bottom: 60px;
-      margin-left: 20%;
+      margin-left: 27%;
       margin-top: 17%;
       justify-content: center;
       align-items: center;
@@ -551,7 +550,7 @@ margin-left: 85%;
     .leftellipse {
       position: absolute;
       right: 0;
-      overflow: hidden;
+     
     }
   
     .star1 {
@@ -642,8 +641,8 @@ margin-left: 85%;
     }
   
     .circles {
-      margin-top: 79%;
-      margin-left: 8.5%;
+      margin-top: 85%;
+      margin-left: 10.5%;
     }
 }
 
@@ -662,6 +661,7 @@ margin-left: 85%;
     border-radius: 43px;
       border: 1px solid #8C8D8F;
     z-index: 2;
+    
 }
 
 .Note, h4{
@@ -980,13 +980,9 @@ letter-spacing: -0.997px;
 .container {
     display: grid;
     margin-top: 10%;
-    margin-left: -47.7%;
-    width: 555px;
-    padding: 0px 126.885px;
+    width: 100%;
     justify-content: center;
     align-items: flex-start;
-
-
   }
 
   .Card1 {
@@ -1073,7 +1069,7 @@ letter-spacing: -0.997px;
     }
   
     .subnotes2 {
-      margin-left: 10%;
+      margin-left: 5%;
       width: 343px;
       flex-shrink: 0;
       color: #FFF;
@@ -1194,16 +1190,16 @@ letter-spacing: -0.997px;
   width: 100%;
   height: 450px;
   flex-shrink: 0;
-  margin-left: 15%;
+  margin-left: 20%;
 }
 .bottombanner{
   width: 100%;
-  margin-left: 15%;
+  margin-left: 20%;
   margin-top: -12%;
 }
 .bannerheader{
   margin-top: -35%;
-  margin-left: 30%;
+  margin-left: 40%;
   color: #FFF;
     text-align: center;
     font-family: 'Koulen', sans-serif;
@@ -1216,7 +1212,7 @@ letter-spacing: -0.997px;
 }
 .bannernote{
   width: 833px;
-  margin-left: 35%;
+  margin-left: 40%;
   color: #FFF;
     text-align: center;
     font-family: 'Gabarito', sans-serif;
@@ -1228,7 +1224,7 @@ letter-spacing: -0.997px;
 }
 .bannerbutton{
   margin-top: 5%;
-  margin-left: 45%;
+  margin-left: 50%;
 }
 .curvybanner{
   margin-top: -20%;

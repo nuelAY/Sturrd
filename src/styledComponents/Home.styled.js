@@ -7,38 +7,34 @@ height: 100%;
 background: #0C0D1B;
 overflow: hidden;
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
 width: 100%;
 height: 100%;
-justify-content: center;
-align-items: flex-start;
-flex-shrink: 0;
-overflow: hidden;
   }
 `
 
 export const Nav = styled.nav`
 width: 1203px;
 height: 86px;
-flex-shrink: 0;
 border-radius: 54px;
 background: #000;
-overflow: hidden;
+
+
 
 @media screen and (max-width: 768px){
   width: 356px;
 height: 46px;
-margin-left: -15%;
+margin-left: 1%;
 align-items: center;
 gap: 15px;
 border-radius: 54px;
 background: #000;
+
 }
 `
 
 export const Hero = styled.div`
 width: 100%;
-
 padding:  80px 0px 60px;
 
 @media screen and (max-width: 768px){
