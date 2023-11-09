@@ -22,9 +22,9 @@ background: #000;
 
 
 @media screen and (max-width: 768px){
-  width: 356px;
+  width: 366px;
 height: 46px;
-margin-left: -15%;
+margin-left: -20%;
 align-items: center;
 gap: 15px;
 border-radius: 54px;
